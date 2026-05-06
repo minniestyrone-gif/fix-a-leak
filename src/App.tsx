@@ -37,25 +37,25 @@ const services = [
     title: 'Geyser Replacement',
     description: 'Expert installation of premium geysers with energy-efficient settings.',
     icon: <Waves className="w-8 h-8" />,
-    color: 'bg-emerald-500'
+    color: 'bg-blue-500'
   },
   {
     title: 'Alternative Water Heating',
     description: 'Solar and heat pump solutions to reduce your carbon footprint and costs.',
     icon: <Flame className="w-8 h-8" />,
-    color: 'bg-lime-500'
+    color: 'bg-cyan-500'
   },
   {
     title: 'Certificate of Compliance',
     description: 'Professional auditing and PIRB certificates for your property.',
     icon: <FileText className="w-8 h-8" />,
-    color: 'bg-green-600'
+    color: 'bg-indigo-600'
   },
   {
     title: 'General Maintenance',
     description: 'Routine checks and fixes to keep your plumbing system in top shape.',
     icon: <Wrench className="w-8 h-8" />,
-    color: 'bg-teal-500'
+    color: 'bg-sky-500'
   },
   {
     title: 'Burst Pipes',
@@ -106,7 +106,9 @@ export default function App() {
             <div className="w-10 h-10 bg-brand-primary rounded-xl flex items-center justify-center shadow-lg shadow-brand-primary/20">
               <Droplets className="text-white w-6 h-6" />
             </div>
-            <span className="font-display text-2xl font-bold tracking-tight">Fix-a-Leak</span>
+            <span className="font-display text-2xl font-bold tracking-tight">
+              PlumbingWay
+            </span>
           </motion.div>
 
           {/* Desktop Nav */}
@@ -196,7 +198,7 @@ export default function App() {
         {/* Background Decorative Elements */}
         <div className="absolute top-0 right-0 -z-10 w-1/2 h-full opacity-20">
            <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-brand-primary rounded-full blur-[120px] animate-pulse" />
-           <div className="absolute bottom-[20%] right-[20%] w-[400px] h-[400px] bg-emerald-400 rounded-full blur-[100px]" />
+           <div className="absolute bottom-[20%] right-[20%] w-[400px] h-[400px] bg-blue-400 rounded-full blur-[100px]" />
         </div>
 
         <div className="container mx-auto px-6">
@@ -207,11 +209,10 @@ export default function App() {
               transition={{ duration: 0.6 }}
             >
               <span className="inline-block px-4 py-1.5 rounded-full bg-brand-primary/10 text-brand-secondary text-xs font-bold tracking-widest uppercase mb-6">
-                Premium Plumbing Services
+                Trusted by Communities
               </span>
-              <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.1] mb-6 text-balance">
-                Perfect your flow <br/>
-                with <span className="text-brand-secondary">Fix-a-Leak</span>
+              <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.1] tracking-tighter mb-6 text-balance">
+                The smarter way to <span className="text-brand-secondary">Plumbing</span>
               </h1>
               <p className="text-lg text-brand-dark/70 mb-8 max-w-lg leading-relaxed">
                 Expert plumbing solutions designed for modern homes. From emergency repairs to eco-friendly water heating, we focus on what matters most.
@@ -292,7 +293,7 @@ export default function App() {
 
               {/* Floating Decorative Elements */}
               <div className="absolute -top-10 -right-10 w-24 h-24 bg-brand-primary/40 rounded-full blur-2xl animate-float" />
-              <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-lime-400/30 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
+              <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-cyan-400/30 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
             </motion.div>
           </div>
         </div>
@@ -379,24 +380,24 @@ export default function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 bg-brand-light">
+      <section id="contact" className="py-16 bg-brand-light">
         <div className="container mx-auto px-6">
-          <div className="bg-brand-dark rounded-[2.5rem] md:rounded-[3rem] p-6 md:p-16 text-white shadow-2xl overflow-hidden relative">
+          <div className="bg-brand-dark rounded-[2.5rem] md:rounded-[3rem] p-8 md:p-12 text-white shadow-2xl overflow-hidden relative">
             {/* Decorative background glow */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-brand-primary/10 blur-[80px] -z-10" />
             
             <div className="max-w-4xl mx-auto text-center">
-              <span className="text-brand-primary font-bold uppercase tracking-widest text-xs mb-4 block">Get In Touch</span>
-              <h2 className="font-display text-3xl md:text-5xl font-bold mb-8 md:mb-12">Contact Details</h2>
+              <span className="text-brand-primary font-bold uppercase tracking-widest text-xs mb-3 block">Get In Touch</span>
+              <h2 className="font-display text-3xl md:text-5xl font-bold mb-6 md:mb-10">Contact Details</h2>
               
-              <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+              <div className="grid md:grid-cols-3 gap-6 md:gap-8">
                 <motion.div 
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   className="flex flex-col items-center gap-4"
                 >
-                  <div className="w-14 h-14 md:w-16 md:h-16 bg-white/10 rounded-2xl flex items-center justify-center">
-                    <Phone className="text-brand-primary w-6 h-6 md:w-8 md:h-8" />
+                  <div className="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center">
+                    <Phone className="text-brand-primary w-6 h-6" />
                   </div>
                   <div>
                     <p className="text-xs opacity-50 uppercase tracking-widest font-bold mb-1">Call Us 24/7</p>
@@ -410,12 +411,12 @@ export default function App() {
                   transition={{ delay: 0.1 }}
                   className="flex flex-col items-center gap-4"
                 >
-                  <div className="w-14 h-14 md:w-16 md:h-16 bg-white/10 rounded-2xl flex items-center justify-center">
-                    <Mail className="text-brand-primary w-6 h-6 md:w-8 md:h-8" />
+                  <div className="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center">
+                    <Mail className="text-brand-primary w-6 h-6" />
                   </div>
                   <div>
                     <p className="text-xs opacity-50 uppercase tracking-widest font-bold mb-1">Email Support</p>
-                    <p className="text-lg md:text-xl font-bold">hello@fixaleak.com</p>
+                    <p className="text-lg md:text-xl font-bold">hello@plumbingway.co</p>
                   </div>
                 </motion.div>
 
@@ -425,20 +426,20 @@ export default function App() {
                   transition={{ delay: 0.2 }}
                   className="flex flex-col items-center gap-4"
                 >
-                  <div className="w-14 h-14 md:w-16 md:h-16 bg-white/10 rounded-2xl flex items-center justify-center">
-                    <MapPin className="text-brand-primary w-6 h-6 md:w-8 md:h-8" />
+                  <div className="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center">
+                    <MapPin className="text-brand-primary w-6 h-6" />
                   </div>
                   <div>
                     <p className="text-xs opacity-50 uppercase tracking-widest font-bold mb-1">Our Address</p>
-                    <p className="text-lg md:text-xl font-bold text-balance">44 Ibis st, sonstraal heights Cape Town 7550</p>
+                    <p className="text-lg md:text-xl font-bold text-balance">44 Ibis st, Cape Town 7550</p>
                   </div>
                 </motion.div>
               </div>
 
-              <div className="mt-10 pt-10 md:mt-16 md:pt-16 border-t border-white/10 flex justify-center">
+              <div className="mt-8 pt-8 md:mt-10 md:pt-10 border-t border-white/10 flex justify-center">
                 <a 
                   href="tel:0672575717"
-                  className="bg-brand-primary text-white px-8 py-3.5 md:px-12 md:py-5 rounded-full font-bold text-base md:text-xl hover:bg-brand-secondary transition-all shadow-2xl shadow-brand-primary/20"
+                  className="bg-brand-primary text-white px-8 py-3.5 md:px-10 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-brand-secondary transition-all shadow-2xl shadow-brand-primary/20"
                 >
                   Book an Emergency Call
                 </a>
@@ -456,7 +457,9 @@ export default function App() {
               <div className="w-8 h-8 bg-brand-primary rounded-lg flex items-center justify-center">
                 <Droplets className="text-white w-5 h-5" />
               </div>
-              <span className="font-display text-xl font-bold">Fix-a-Leak</span>
+              <span className="font-display text-xl font-bold">
+                PlumbingWay
+              </span>
             </div>
             <div className="flex gap-8 text-sm font-medium text-brand-dark/50">
               <a href="#" className="hover:text-brand-primary transition-colors">Privacy Policy</a>
@@ -464,7 +467,7 @@ export default function App() {
               <a href="#" className="hover:text-brand-primary transition-colors">Cookie Policy</a>
             </div>
             <p className="text-xs text-brand-dark/40 font-medium uppercase tracking-[0.2em]">
-              © 2026 Fix-a-Leak Plumbing - All Rights Reserved
+              © 2026 PlumbingWay - All Rights Reserved
             </p>
           </div>
         </div>
