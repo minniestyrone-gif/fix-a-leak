@@ -107,7 +107,7 @@ export default function App() {
               <Droplets className="text-white w-6 h-6" />
             </div>
             <span className="font-display text-2xl font-bold tracking-tight">
-              Plumb-X
+              Mr Plumb.Co
             </span>
           </motion.div>
 
@@ -409,7 +409,7 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-xs opacity-50 uppercase tracking-widest font-bold mb-1">Call Us 24/7</p>
-                    <p className="text-lg md:text-xl font-bold">071 059 2162</p>
+                    <p className="text-lg md:text-xl font-bold">082 658 8234</p>
                   </div>
                 </motion.div>
 
@@ -424,7 +424,7 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-xs opacity-50 uppercase tracking-widest font-bold mb-1">Email Support</p>
-                    <p className="text-lg md:text-xl font-bold">hello@plumb-x.co</p>
+                    <p className="text-lg md:text-xl font-bold">hello@mrplumb.co</p>
                   </div>
                 </motion.div>
 
@@ -439,14 +439,14 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-xs opacity-50 uppercase tracking-widest font-bold mb-1">Our Address</p>
-                    <p className="text-lg md:text-xl font-bold text-balance">7 Lynette Close, Fish Hoek, Cape Town 7975</p>
+                    <p className="text-lg md:text-xl font-bold text-balance">13 Mansell Rd, Killarney Gardens, Cape Town 7441</p>
                   </div>
                 </motion.div>
               </div>
 
               <div className="mt-8 pt-8 md:mt-10 md:pt-10 border-t border-white/10 flex justify-center">
                 <a 
-                  href="tel:0710592162"
+                  href="tel:0826588234"
                   className="bg-brand-primary text-white px-8 py-3.5 md:px-10 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-brand-secondary transition-all shadow-2xl shadow-brand-primary/20"
                 >
                   Book an Emergency Call
@@ -466,7 +466,7 @@ export default function App() {
                 <Droplets className="text-white w-5 h-5" />
               </div>
               <span className="font-display text-xl font-bold">
-                Plumb-X
+                Mr Plumb.Co
               </span>
             </div>
             <div className="flex gap-8 text-sm font-medium text-brand-dark/50">
@@ -475,7 +475,7 @@ export default function App() {
               <a href="#" className="hover:text-brand-primary transition-colors">Cookie Policy</a>
             </div>
             <p className="text-xs text-brand-dark/40 font-medium uppercase tracking-[0.2em]">
-              © 2026 Plumb-X - All Rights Reserved
+              © 2026 Mr Plumb.Co - All Rights Reserved
             </p>
           </div>
         </div>
