@@ -107,7 +107,7 @@ export default function App() {
               <Droplets className="text-white w-6 h-6" />
             </div>
             <span className="font-display text-2xl font-bold tracking-tight">
-              PlumbingWay
+              Plumb-X
             </span>
           </motion.div>
 
@@ -346,31 +346,39 @@ export default function App() {
       </section>
 
       {/* Testimonials */}
-      <section id="testimonials" className="py-24 relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full bg-brand-dark -z-20" />
-        <div className="container mx-auto px-6 text-white">
+      <section id="testimonials" className="py-16 relative overflow-hidden">
+        <div className="absolute inset-0 -z-20">
+          <img 
+            src="https://tse1.mm.bing.net/th/id/OIP.CkYYfxLgcBBVze2jI7JL6wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" 
+            alt="Plumbing Background" 
+            className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
+          />
+          <div className="absolute inset-0 bg-brand-dark/80 backdrop-blur-[2px]" />
+        </div>
+        <div className="container mx-auto px-6 text-white relative z-10">
            <div className="max-w-4xl mx-auto">
-                <div className="text-center mb-16">
-                    <span className="text-brand-primary font-bold uppercase tracking-widest text-xs mb-4 block">Satisfaction Guaranteed</span>
-                    <h2 className="font-display text-4xl md:text-5xl font-bold">What Our Clients Say</h2>
+                <div className="text-center mb-12">
+                    <span className="text-brand-primary font-bold uppercase tracking-widest text-xs mb-3 block">Satisfaction Guaranteed</span>
+                    <h2 className="font-display text-3xl md:text-4xl font-bold">What Our Clients Say</h2>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-3 gap-6">
                     {testimonials.map((t, idx) => (
                         <motion.div 
                           key={t.name}
                           initial={{ opacity: 0, scale: 0.95 }}
                           whileInView={{ opacity: 1, scale: 1 }}
                           transition={{ delay: idx * 0.2 }}
-                          className="glass-dark p-8 rounded-3xl"
+                          className="glass-dark p-6 rounded-3xl border border-white/5"
                         >
                             <div className="flex gap-1 mb-4">
                                 {[...Array(t.rating)].map((_, i) => (
                                     <Star key={i} className="text-brand-primary w-4 h-4 fill-brand-primary" />
                                 ))}
                             </div>
-                            <p className="text-lg italic mb-6 opacity-80">"{t.text}"</p>
-                            <p className="font-bold">{t.name}</p>
+                            <p className="text-lg italic mb-6 opacity-90">"{t.text}"</p>
+                            <p className="font-bold text-brand-primary">{t.name}</p>
                             <p className="text-xs opacity-50 uppercase tracking-widest mt-1">Verified Client</p>
                         </motion.div>
                     ))}
@@ -401,7 +409,7 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-xs opacity-50 uppercase tracking-widest font-bold mb-1">Call Us 24/7</p>
-                    <p className="text-lg md:text-xl font-bold">067 257 5717</p>
+                    <p className="text-lg md:text-xl font-bold">071 059 2162</p>
                   </div>
                 </motion.div>
 
@@ -416,7 +424,7 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-xs opacity-50 uppercase tracking-widest font-bold mb-1">Email Support</p>
-                    <p className="text-lg md:text-xl font-bold">hello@plumbingway.co</p>
+                    <p className="text-lg md:text-xl font-bold">hello@plumb-x.co</p>
                   </div>
                 </motion.div>
 
@@ -431,14 +439,14 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-xs opacity-50 uppercase tracking-widest font-bold mb-1">Our Address</p>
-                    <p className="text-lg md:text-xl font-bold text-balance">44 Ibis st, Cape Town 7550</p>
+                    <p className="text-lg md:text-xl font-bold text-balance">7 Lynette Close, Fish Hoek, Cape Town 7975</p>
                   </div>
                 </motion.div>
               </div>
 
               <div className="mt-8 pt-8 md:mt-10 md:pt-10 border-t border-white/10 flex justify-center">
                 <a 
-                  href="tel:0672575717"
+                  href="tel:0710592162"
                   className="bg-brand-primary text-white px-8 py-3.5 md:px-10 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-brand-secondary transition-all shadow-2xl shadow-brand-primary/20"
                 >
                   Book an Emergency Call
@@ -458,7 +466,7 @@ export default function App() {
                 <Droplets className="text-white w-5 h-5" />
               </div>
               <span className="font-display text-xl font-bold">
-                PlumbingWay
+                Plumb-X
               </span>
             </div>
             <div className="flex gap-8 text-sm font-medium text-brand-dark/50">
@@ -467,7 +475,7 @@ export default function App() {
               <a href="#" className="hover:text-brand-primary transition-colors">Cookie Policy</a>
             </div>
             <p className="text-xs text-brand-dark/40 font-medium uppercase tracking-[0.2em]">
-              © 2026 PlumbingWay - All Rights Reserved
+              © 2026 Plumb-X - All Rights Reserved
             </p>
           </div>
         </div>
